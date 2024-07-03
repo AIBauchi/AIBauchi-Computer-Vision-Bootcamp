@@ -104,7 +104,7 @@
 ---
 
 ### Instructors:
-- Nathaneil Handan [GitHub Profile](https://github.com/Tinny-Robot)
+- Nathaniel Handan [GitHub Profile](https://github.com/Tinny-Robot)
 - Amina Sheega [GitHub Profile](https://github.com/Sheega-ameenah)
 - Stanley Ogochukwu [GitHub Profile](https://github.com/Staneering)
 - Wisdom Matehew [GitHub Profile](https://github.com/matt-wisdom)

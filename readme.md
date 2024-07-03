@@ -1,106 +1,55 @@
-# AI Bauchi Computer Vision 6 Weeks Cohort
+# AI Bauchi 6 Weeks Computer Vision Bootcamp
 
-Welcome to the AI Bauchi Computer Vision 6 Weeks Cohort repository! This repository hosts all the materials and resources you'll need for our intensive 6-week bootcamp focused on computer vision using Python.
+<div style="display: flex; justify-content: space-evenly; align-items: center; width: 100%;">
+<img src="logos\aib.png" width='100px'/>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeyMRtudTwUIhRHGT1VKvVbnRYTu8VaQtaHg&s" width='100px'/>
+<img src="https://miro.medium.com/v2/resize:fit:800/0*qa3Uh-1JZUhCuBVK.png" width='100px'/>
+</div>
+Welcome to the AI Bauchi 6 Weeks Computer Vision Bootcamp repository! This repository contains resources and materials for our intensive 6-week bootcamp aimed at equipping participants with essential skills in Computer Vision using Python and Deep Learning frameworks.
 
-## Bootcamp Overview
+## About the Bootcamp
 
-The cohort will run for six weeks, with three contact days per week, led by our instructor Mr. Robot (GitHub: [Tinny-Robot](https://github.com/Tinny-Robot)). Each week will cover essential topics in computer vision, combining theoretical knowledge with practical implementation.
+The AI Bauchi Computer Vision Bootcamp is designed to provide hands-on experience in:
 
-### Week 1: Introduction to Computer Vision and Python Basics
-- **Day 1:** Introduction to Computer Vision
-- **Day 2:** Python Basics for Computer Vision
-- **Day 3:** Introduction to OpenCV
+- Understanding the fundamentals of Computer Vision
+- Implementing image processing techniques using OpenCV
+- Building and training Artificial Neural Networks (ANNs) and Convolutional Neural Networks (CNNs) for image classification and object detection
+- Exploring advanced topics such as image segmentation, object tracking, and GANs for image generation
 
-### Week 2: Image Processing with OpenCV
-- **Day 1:** Basic Image Processing Techniques
-- **Day 2:** Advanced Image Processing
-- **Day 3:** Hands-on Lab
+## Instructors
 
-### Week 3: Feature Detection and Description
-- **Day 1:** Edge and Corner Detection
-- **Day 2:** Feature Detection Algorithms
-- **Day 3:** Hands-on Lab
+- Nathaniel Handan [GitHub Profile](https://github.com/Tinny-Robot)
+- Amina Sheega [GitHub Profile](https://github.com/Sheega-ameenah)
+- Stanley Ogochukwu [GitHub Profile](https://github.com/Staneering)
+- Wisdom Matehew [GitHub Profile](https://github.com/matt-wisdom)
+- Rufia Yusuf
+- Neo
 
-### Week 4: Deep Learning Basics for Computer Vision
-- **Day 1:** Introduction to Deep Learning
-- **Day 2:** Convolutional Neural Networks (CNNs)
-- **Day 3:** Hands-on Lab
+## Syllabus
 
-### Week 5: Object Detection and Recognition
-- **Day 1:** Object Detection Algorithms
-- **Day 2:** Object Recognition
-- **Day 3:** Hands-on Lab
-
-### Week 6: Advanced Topics and Project
-- **Day 1:** Advanced Computer Vision Techniques
-- **Day 2:** Capstone Project Work
-- **Day 3:** Project Presentations and Review
-
-## Repository Structure
-
-The repository is organized into directories for each week of the bootcamp. Each directory contains the materials for that week, including lecture notes, code examples, and assignments.
-
-```
-root/
-│
-├── Week1/
-│   ├── Day1/
-│   ├── Day2/
-│   └── Day3/
-│
-├── Week2/
-│   ├── Day1/
-│   ├── Day2/
-│   └── Day3/
-│
-├── Week3/
-│   ├── Day1/
-│   ├── Day2/
-│   └── Day3/
-│
-├── Week4/
-│   ├── Day1/
-│   ├── Day2/
-│   └── Day3/
-│
-├── Week5/
-│   ├── Day1/
-│   ├── Day2/
-│   └── Day3/
-│
-└── Week6/
-    ├── Day1/
-    ├── Day2/
-    └── Day3/
-```
+Our syllabus covers a comprehensive range of topics from basic to advanced Computer Vision techniques. See the detailed syllabus [here](sylabbus.md).
 
 ## How to Use This Repository
 
-1. Clone the repository to your local machine:
-    ```sh
-    git clone https://github.com/yourusername/ai-bauchi-computer-vision.git
-    ```
+- Clone the repository to your local machine:
+  ```bash
+  git clone https://github.com/AIBauchi/AIBauchi-Computer-Vision-Bootcamp.git
+  ```
+  
+- Explore the folders for session materials, including lecture notes, code examples and datasets.
+- Refer to the `README.md` files within each session folder for specific instructions and resources.
 
-2. Navigate to the directory for the current week to find the relevant materials.
+## Getting Started
 
-3. Follow the instructions provided in each day's folder for lectures, labs, and assignments.
+To get started with the bootcamp, ensure you have the following prerequisites:
+- Basic knowledge of Python programming
+- A computer system running Windows 8 or higher (or equivalent)
+- Stable internet connection
 
-## Instructor
+## Join Us
 
-- **Instructor:** Mr. Robot ([Tinny-Robot](https://github.com/Tinny-Robot))
+Interested in joining our bootcamp? [Register here](https://wa.link/4smiqz) and kickstart your journey into Computer Vision!
 
-## Resources and Tools
+For any questions or inquiries, feel free to reach out to us or open an issue in this repository.
 
-- **Programming Language:** Python
-- **Libraries and Frameworks:** OpenCV, TensorFlow, Keras
-- **Hardware:** Access to GPUs if possible
-
-## Support
-
-For any questions or issues, please reach out to the bootcamp instructors via the provided communication channels.
-
-Happy Learning!
-
----
-
-© 2024 AI Bauchi Computer Vision 6 Weeks Cohort. All rights reserved.
+Let's dive into the world of Computer Vision together!
