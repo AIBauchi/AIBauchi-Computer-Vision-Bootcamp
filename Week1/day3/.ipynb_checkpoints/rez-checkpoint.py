@@ -21,7 +21,7 @@ def display_image(image_path, scale_percent):
     # Convert BGR to RGB
     resized_img_rgb = cv2.cvtColor(resized_img, cv2.COLOR_BGR2RGB)
 
-    display_images([img,resized_img_rgb,],  ["main image", f'Resized Image ({new_width}x{new_height})',])
+    display_images([resized_img_rgb,],  [f'Resized Image ({new_width}x{new_height})',])
     
 
 def display_images(images, titles):
