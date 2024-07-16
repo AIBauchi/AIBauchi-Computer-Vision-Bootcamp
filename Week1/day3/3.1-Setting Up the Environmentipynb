@@ -1,0 +1,320 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "5737f852-dca1-4f98-9cdc-c34c99227c6a",
+   "metadata": {},
+   "source": [
+    "# AI Bauchi 6 Weeks Computer Vision Bootcamp\n",
+    "## Day 3: Setting Up the Environment\n",
+    "\n",
+    "<div style=\"display: flex; justify-content: space-evenly; align-items: center; width: 100%;\">\n",
+    "<img src=\"../../logos\\aib.png\" width='100px'/>\n",
+    "<img src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeyMRtudTwUIhRHGT1VKvVbnRYTu8VaQtaHg&s\" width='100px'/>\n",
+    "<img src=\"https://miro.medium.com/v2/resize:fit:800/0*qa3Uh-1JZUhCuBVK.png\" width='100px'/>\n",
+    "</div>\n",
+    "\n",
+    "\n",
+    "### Session 3: Setting Up the Environment\n",
+    "\n",
+    "\n",
+    "Welcome to Day 3 of our Computer Vision Bootcamp! Today, we will set up the development environment required for our computer vision projects. This includes installing Python, necessary libraries, and tools, and writing our first Python script for image processing.\n",
+    "\n",
+    "#### 1. Installing Python and Necessary Libraries\n",
+    "\n",
+    "First, we need to install Python. We recommend using Anaconda, which comes with many pre-installed packages and a package manager called `conda`.\n",
+    "\n",
+    "1. **Install Anaconda:**\n",
+    "   - Download Anaconda from [Anaconda's official website](https://www.anaconda.com/products/individual).\n",
+    "   - Follow the installation instructions for your operating system.\n",
+    "\n",
+    "2. **Create a New Environment:**\n",
+    "   - Open the Anaconda Navigator and create a new environment for our bootcamp."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e753b9b7-546f-4acf-a9ed-d21571bc910a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "conda create -n cvbootcamp python=3.8\n",
+    "conda activate cvbootcamp"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "43ff37f5-e9db-4cde-90fb-39c4cdaeaa09",
+   "metadata": {},
+   "source": [
+    "3. **Install Necessary Libraries:**\n",
+    "   - Install the required libraries using `conda` or `pip`.\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c040da20-d50b-490d-b79a-02569eb377db",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "conda install jupyter notebook\n",
+    "conda install opencv numpy matplotlib"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "62b5c899-3878-4664-b0cc-2a8bdf913ef4",
+   "metadata": {},
+   "source": [
+    "   Alternatively, using `pip`:\n",
+    "\n",
+    "   "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1e910cf2-e3e3-496b-8a46-7b2d516ad348",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "pip install jupyter notebook opencv-python numpy matplotlib"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "411a3ce1-c65a-46b6-893c-20a9fe019918",
+   "metadata": {},
+   "source": [
+    "#### 2. Introduction to Jupyter Notebooks & Anaconda\n",
+    "\n",
+    "Jupyter Notebooks are a powerful tool for data analysis and visualization, allowing you to create and share documents that contain live code, equations, visualizations, and narrative text.\n",
+    "\n",
+    "1. **Launch Jupyter Notebook:**\n",
+    "   - Open the Anaconda Navigator and launch Jupyter Notebook, or use the command line:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bcaddc38-494d-46d5-a943-7b6807a0206b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "jupyter notebook"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d8fe34f0-647e-486e-b44e-fbe25644ba71",
+   "metadata": {},
+   "source": [
+    "2. **Create a New Notebook:**\n",
+    "   - In the Jupyter Notebook interface, create a new Python 3 notebook.\n",
+    "\n",
+    "#### 3. Writing Your First Python Script for Image Processing\n",
+    "\n",
+    "Let's write our first Python script to read, display, and save an image using OpenCV.\n",
+    "\n",
+    "1. **Read an Image:**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "66a017ca-90c5-49c2-b993-17acc84b77bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Image loaded successfully\n"
+     ]
+    }
+   ],
+   "source": [
+    "import cv2\n",
+    "\n",
+    "# Read the image\n",
+    "img = cv2.imread('images/flyer.png')\n",
+    "\n",
+    "# Check if the image is loaded properly\n",
+    "if img is None:\n",
+    "   print('Error: Unable to load image')\n",
+    "else:\n",
+    "   print('Image loaded successfully')\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5c171cf7-7d46-44c6-bb97-84636d59f7b4",
+   "metadata": {},
+   "source": [
+    "2. **Display the Image:**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "889e55aa-9142-4314-aa57-3f85f794ab10",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Display the image in a window\n",
+    "cv2.imshow('Computer Vision Image', img)\n",
+    "\n",
+    "# Wait for a key press and close the window\n",
+    "cv2.waitKey(0)\n",
+    "cv2.destroyAllWindows()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "efc7d873-44ff-425b-a32a-28acafa2b0e1",
+   "metadata": {},
+   "source": [
+    "3. **Save the Image:**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "6745efe3-927a-4e12-ad14-60dc0338ac80",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Image saved successfully\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Save the image\n",
+    "cv2.imwrite('images/output_image.jpg', img)\n",
+    "print('Image saved successfully')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "421d60bb-ee67-4537-a2c8-71bbf43c7dea",
+   "metadata": {},
+   "source": [
+    "#### 4. Basic Operations on Images\n",
+    "\n",
+    "Let's perform some basic operations on images, such as converting to grayscale, resizing, and rotating.\n",
+    "\n",
+    "1. **Convert to Grayscale:**\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "ec934b4e-e4a9-4df5-b0ec-c8a75ebd20dd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Convert the image to grayscale\n",
+    "gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)\n",
+    "\n",
+    "# Display the grayscale image\n",
+    "cv2.imshow('Grayscale Image', gray_img)\n",
+    "cv2.waitKey(0)\n",
+    "cv2.destroyAllWindows()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a6977c09-7268-448c-9dac-763d6715b9d1",
+   "metadata": {},
+   "source": [
+    "2. **Resize the Image:**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "89227771-448a-4c84-bf66-493bf32c23bb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Resize the image to 50% of its original size\n",
+    "resized_img = cv2.resize(img, (0, 0), fx=0.5, fy=0.5)\n",
+    "\n",
+    "# Display the resized image\n",
+    "cv2.imshow('Resized Image', resized_img)\n",
+    "cv2.waitKey(0)\n",
+    "cv2.destroyAllWindows()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9d7b4f02-da58-4a33-a6e5-e7716660260f",
+   "metadata": {},
+   "source": [
+    "3. **Rotate the Image:**"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "7d20be37-d982-4d7e-9ded-9ac571cac053",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Get the image dimensions\n",
+    "(h, w) = img.shape[:2]\n",
+    "center = (w // 2, h // 2)\n",
+    "\n",
+    "# Define the rotation matrix\n",
+    "matrix = cv2.getRotationMatrix2D(center, 45, 1.0)\n",
+    "\n",
+    "# Perform the rotation\n",
+    "rotated_img = cv2.warpAffine(img, matrix, (w, h))\n",
+    "\n",
+    "# Display the rotated image\n",
+    "cv2.imshow('Rotated Image', rotated_img)\n",
+    "cv2.waitKey(0)\n",
+    "cv2.destroyAllWindows()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "78553f2a-7e9b-438a-9c85-11b0f6e8d922",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
