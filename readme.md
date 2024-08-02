@@ -21,8 +21,8 @@ The AI Bauchi Computer Vision Bootcamp is designed to provide hands-on experienc
 - Nathaniel Handan [GitHub Profile](https://github.com/Tinny-Robot)
 - Amina Sheega [GitHub Profile](https://github.com/Sheega-ameenah)
 - Stanley Ogochukwu [GitHub Profile](https://github.com/Staneering)
-- Wisdom Matehew [GitHub Profile](https://github.com/matt-wisdom)
-- Rufia Yusuf
+- Wisdom Matthew [GitHub Profile](https://github.com/matt-wisdom)
+- Rufai Yusuf
 - Neo
 
 ## Syllabus
