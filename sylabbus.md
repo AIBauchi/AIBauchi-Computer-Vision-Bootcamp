@@ -63,9 +63,12 @@
 - Introduction to image classification
 - Techniques for improving classification accuracy
 
-**Session 12: Image Segmentation**
-- What is image segmentation?
-- Techniques for image segmentation (thresholding, clustering, CNNs)
+**Session 12: Facial Recognition**
+- Overview of facial recognition technology
+- Applications and ethical considerations
+- Facial recognition pipeline: detection, alignment, feature extraction, matching
+- Building a Facial Recognition System
+- Feature extraction methods: PCA, LBP, HOG, deep learning-based approaches
 
 ### Week 5: Advanced Computer Vision Techniques
 **Session 13: Advanced Image Segmentation**
