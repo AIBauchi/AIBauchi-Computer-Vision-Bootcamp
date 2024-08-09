@@ -63,7 +63,7 @@
 - Introduction to image classification
 - Techniques for improving classification accuracy
 
-### Session 12: Facial Recognition
+**Session 12: Facial Recognition**
 - Overview of facial recognition technology
 - Applications and ethical considerations
 - Facial recognition pipeline: detection, alignment, feature extraction, matching
